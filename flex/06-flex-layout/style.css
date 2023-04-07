@@ -16,6 +16,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  height: 30px;
+  margin: 3px;
+  padding: 3px 15px;
 }
 
 input {
@@ -24,4 +27,74 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #6B7280;
+}
+
+.mainspace {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.header,
+.footer {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+
+div.content {
+  height: 316px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+div.input {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+div.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.header li {
+  background-color: burlywood;
+}
+
+.header ul {
+  background-color: greenyellow;
+}
+
+div ul.left-links {
+  display: flex;
+  border: 2px solid blue;
+}
+
+div ul.right-links {
+  display: flex;
+  border: 2px solid blue;
 }
