@@ -51,9 +51,13 @@ a {
 
 .header,
 .footer {
+  width: 100%;
   display: flex;
-  border: 1px solid red;
   justify-content: space-between;
+}
+
+.header {
+  color: grey;
 }
 
 div.content {
@@ -81,20 +85,33 @@ div.buttons {
   justify-content: center;
 }
 
-.header li {
-  background-color: burlywood;
-}
-
-.header ul {
-  background-color: greenyellow;
-}
-
-div ul.left-links {
+.left-links {
+  width: 100px;
   display: flex;
-  border: 2px solid blue;
+  justify-content: space-around;
+  gap: 9px;
+  padding-left: 9px;
 }
+
+.right-links {
+  width: 133px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 4px;
+}
+
+.down-right {
+  width: 120px;
+  gap: 0;
+}
+
+.down-left {
+  display: flex;
+  justify-content: space-around;
+  width: 163px;
+  gap: 8px;
+} 
 
 div ul.right-links {
   display: flex;
-  border: 2px solid blue;
 }
